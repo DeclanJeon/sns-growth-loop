@@ -1,0 +1,73 @@
+{
+  "skill_name": "sns-growth-loop",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "한국어 콘텐츠를 올리고 싶은데 카메라, 편집 앱, 주제를 고르느라 3개월째 시작하지 못했어요. 채널에는 게시물이 하나도 없습니다. 완벽한 준비가 될 때까지 기다릴까요? 첫 30일 계획과 매 게시물에서 무엇을 배울지 제안해 주세요.",
+      "expected_output": "완벽한 준비 대신 지속 가능한 속도로 게시하고, 매번 한 가지를 배우는 30일 실행안. 반복 연습은 성장 보장이 아니며 100개를 한 달 안에 채울 필요가 없음을 설명. 게시별 피드백 기록을 포함.",
+      "files": [],
+      "expectations": [
+        "Recommends publishing before equipment, editing tools, or channel concept are perfect.",
+        "Uses deliberate practice without promising views; if mentioning the source's 100-video suggestion, frames it as a long-term practice horizon, not a first-month quota.",
+        "Gives a sustainable 30-day starting cadence and a per-post feedback/improvement routine."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "짧은 영상의 30초 시청 유지율이 45%예요. 제목과 썸네일은 실용 팁을 약속하는데 영상은 인사와 배경 설명으로 25초를 씁니다. 다음 영상에서 무엇을 바꿔야 할지, 어떻게 검증할지 알려 주세요.",
+      "expected_output": "약속-도입 불일치를 진단하고 첫 5초 안에 약속을 증명하는 단일 실험을 제안. 시작점/측정값을 명시하고 플랫폼·주제별 기준을 보편적 규칙처럼 과장하지 않음.",
+      "files": [],
+      "expectations": [
+        "Identifies the gap between the title/cover promise and the 25-second greeting/background intro.",
+        "States the source-specific five-second promise test and proposes cutting or moving unnecessary setup.",
+        "Defines one main change and compares its result with a relevant creator/platform baseline.",
+        "Does not present the video's cited retention thresholds as universal or causal proof."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "본업이 있어 한 달에 영상 두 개만 만들 수 있고 혼자 작업합니다. 매일 올려야 성장할까요? 같은 분야의 작은 크리에이터 두 명과 내 분석 데이터는 있습니다. 무리하지 않으면서 다음 달에 실행할 성장 루프를 짜 주세요.",
+      "expected_output": "지속 가능한 게시 속도, 즉시/사후 피드백, 카테고리별 복기, 동료와의 데이터 공유/마스터마인드, 다음 실험을 포함. 매일 게시를 강요하지 않음.",
+      "files": [],
+      "expectations": [
+        "Respects the stated capacity of two posts per month and does not prescribe daily posting.",
+        "Includes both immediate production notes and a later analytics/content review with category-based feedback.",
+        "Uses a problem-hypothesis-next-plan experiment and selects a signal to compare with the creator's baseline.",
+        "Turns the two peer relationships into a specific, consent-aware data-sharing or review routine."
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Threads 계정에 게시물 12개를 올렸어요. 답글은 늘지만 프로필 방문 대비 팔로우가 낮습니다. 확인 가능한 데이터는 노출, 프로필 방문, 팔로우, 링크 클릭뿐이고 영상은 올리지 않습니다. 다음 1주일 동안 할 실험 하나를 제안해 주세요.",
+      "expected_output": "비디오가 아닌 Threads 맥락에서 팔로우 전환을 다루는 한 가지 실험. 사용 가능한 원시 수치로 팔로우 ÷ 프로필 방문을 정의하고, 게시물별 데이터가 없다면 인과를 단정하지 않음. YouTube 전용 유지율을 요구하지 않음.",
+      "files": [],
+      "expectations": [
+        "Keeps the recommendation specific to a text-first Threads post and the stated follow-conversion goal.",
+        "Uses only available analytics or transparently calculates follows divided by profile views with a stated period; notes when post-level attribution is unavailable.",
+        "States one testable change, a comparison baseline, and how the next result will inform the following post."
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "8분 YouTube 영상의 제목·썸네일은 약속을 정확히 전달하고, 완성된 결과도 첫 5초 안에 보여줍니다. 유지 그래프는 0:14까지 85%로 안정적이지만, 0:14~0:38의 긴 제작자 일화 구간에서 48%로 떨어진 뒤 안정됩니다. 다음 영상에서 무엇을 시험할지 알려 주세요.",
+      "expected_output": "첫 5초나 제목을 무조건 고치지 않고 그래프가 보여주는 0:14~0:38 구간에 맞춘 단일 실험을 제안. 그 구간의 이야기 길이/배치를 바꾸고 이전 유사 영상과 해당 구간 이후의 유지율을 비교하며, 인과를 단정하지 않음.",
+      "files": [],
+      "expectations": [
+        "Uses the retention curve's specific 0:14–0:38 drop to locate the likely test segment.",
+        "Keeps the already-working title/cover promise and first five seconds stable while changing one later segment.",
+        "Compares post-segment retention with similar videos and frames the explanation as a hypothesis, not proven causality."
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "틱톡 20초 영상의 유지 그래프가 1.5초쯤 크게 떨어지고, 약속한 결과는 4초에 나옵니다. 참고한 YouTube 영상은 첫 5초 안에 약속을 보여주고 영상 100개를 만들라고 하던데, TikTok에서도 5초와 100개를 그대로 따라야 하나요? 다음 영상 실험 하나를 정해 주세요.",
+      "expected_output": "YouTube의 5초 조언을 TikTok의 고정 임계값으로 복사하지 않고, 주어진 1.5초 이탈에 맞춰 가치를 더 일찍 제시하는 단일 실험을 설계. 100개는 알고리즘 요구량/성과 보장이 아닌 연습 조언이며 플랫폼에 공통인 게시 quota가 아님을 설명.",
+      "files": [],
+      "expectations": [
+        "Treats the five-second advice as a source-specific YouTube heuristic and uses TikTok's provided 1.5-second drop to choose an earlier payoff test.",
+        "Frames 100 videos as practice rather than an algorithm threshold, required quota, or guarantee, and respects sustainable cadence.",
+        "Changes one main element and compares TikTok-native early-retention data against a similar baseline."
+      ]
+    }
+  ]
+}
